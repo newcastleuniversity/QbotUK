@@ -2,13 +2,13 @@
   "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
   "manifestVersion": "1.5",
   "version": "1.0.0",
-  "id": "bdd735c4-91e4-400c-a5ef-651ee712bdea",
+  "id": "e976602e-4e43-4d96-ab82-fc98742bc4d0",
   "packageName": "qbot",
   "developer": {
-    "name": "University of Contoso",
-    "websiteUrl": "https://www.unsw.edu.au/QBot",
-    "privacyUrl": "https://www.unsw.edu.au/QBot/privacy",
-    "termsOfUseUrl": "https://www.unsw.edu.au/QBot/tou"
+    "name": "Newcastle University",
+    "websiteUrl": "https://www.ncl.ac.uk/",
+    "privacyUrl": "https://www.ncl.ac.uk/wellbeing/about/privacynotice/",
+    "termsOfUseUrl": "https://services.ncl.ac.uk/itservice/rules/"
   },
   "icons": {
     "outline": "Outline.png",
@@ -25,7 +25,7 @@
   "accentColor": "#6264A7",
   "bots": [
     {
-      "botId": "bdd735c4-91e4-400c-a5ef-651ee712bdea",
+      "botId": "e976602e-4e43-4d96-ab82-fc98742bc4d0",
       "scopes": [
         "team"
       ]
@@ -35,7 +35,7 @@
     {
       "entityId": "DashboardTab",
       "name": "Dashboard",
-      "contentUrl": "https://qboteduukunicontoso-dashboard.azurewebsites.net/home?upn={loginHint}&tid={tid}&gid={groupId}&uid={userObjectId}",
+      "contentUrl": "https://newcastlequestionbot-dashboard.azurewebsites.net/home?upn={loginHint}&tid={tid}&gid={groupId}&uid={userObjectId}",
       "scopes": [ "personal" ]
     }
   ],
@@ -43,5 +43,5 @@
     "identity",
     "messageTeamMembers"
   ],
-  "validDomains": [ "qboteduukunicontoso-dashboard.azurewebsites.net", "qboteduukunicontoso.azurewebsites.net" ]
+  "validDomains": [ "https://newcastlequestionbot-dashboard.azurewebsites.net", "newcastlequestionbot.azurewebsites.net" ]
 }
