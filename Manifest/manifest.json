@@ -43,5 +43,5 @@
     "identity",
     "messageTeamMembers"
   ],
-  "validDomains": [ "https://newcastlequestionbot-dashboard.azurewebsites.net", "newcastlequestionbot.azurewebsites.net" ]
+  "validDomains": [ "newcastlequestionbot-dashboard.azurewebsites.net", "newcastlequestionbot.azurewebsites.net" ]
 }
